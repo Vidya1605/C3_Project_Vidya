@@ -88,4 +88,5 @@ class RestaurantTest {
         assertEquals(388,restaurant.totalPrice(totalItems));
 
     }
+    //No failing Test cases for total price
 }
