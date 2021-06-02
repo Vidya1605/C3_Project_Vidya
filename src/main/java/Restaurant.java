@@ -22,13 +22,11 @@ public class Restaurant {
             return false;
         }
         return true;
-        //DELETE ABOVE STATEMENT AND WRITE CODE HERE
     }
 
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
 
     public List<Item> getMenu() {
-        //DELETE ABOVE RETURN STATEMENT AND WRITE CODE HERE
         return menu;
     }
 

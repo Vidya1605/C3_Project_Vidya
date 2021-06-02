@@ -7,7 +7,6 @@ public class RestaurantService {
     private Object restaurantNotFoundException;
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException{
-        //DELETE ABOVE STATEMENT AND WRITE CODE HERE
         for(Restaurant restaurant:restaurants){
             if(restaurant.getName().equals(restaurantName)){
                 return  restaurant;
